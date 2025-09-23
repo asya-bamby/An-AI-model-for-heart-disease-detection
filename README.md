@@ -38,7 +38,6 @@ The following factors or parameters are considered from the CSV file:
  5   serum_cholestoral  -  Serum cholesterol level in mg/dL.           
  6   fasting_blood_sugar  -   Fasting blood sugar level > 120 mg/dl              
  7   resting_electrocardiographic_results  -   Resting electrocardiographic results (values 0,1,2).
- 
  8   maximum_heart_rate_achieved  -  Maximum heart rate achieved      
  9   exercise_induced_angina  -   Exercise-induced angina.            
  10  oldpeak  -  ST depression induced by exercise relative to rest                
