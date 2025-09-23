@@ -1,5 +1,6 @@
 # AI-Based Heart Disease Detection using Machine Learning
-![Image](https://github.com/{asya-bamby/{An-AI-model-for-heart-disease-detection}/raw/{exstra}/image.png)
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/dbe96a1b-5962-4fc2-9553-a732ba5e1041" />
+
 
 ## Project Description
 This repository contains the implementation of a predictive model for heart disease detection, as presented in the associated research paper. The project leverages machine learning algorithms in Python to analyze medical data and predict the likelihood of cardiovascular disease in patients. The primary goal is to demonstrate the application of AI in healthcare for early and accurate diagnosis.
