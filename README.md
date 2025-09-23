@@ -20,8 +20,8 @@ This repository contains the implementation of a predictive model for heart dise
 5. Train-test split of the dataset.
 6. Hyperparameter tuning for multiple machine learning models:
     - Logistic Regression
-    - Decision Tree
-    - Support Vector Machine (SVM)
+    - Randomforest
+    - Neural Network
 7. Model training and evaluation.
 8. Display of confusion matrices and classification reports for model performance.
 
@@ -30,21 +30,21 @@ The Random Forest algorithm provided the best performance among the tested model
 
 ## Data content:
 The following factors or parameters are considered from the CSV file:
-
-    - 'age': Age of the patient.
-    - 'sex': Gender of the patient.
-    - 'cp': Chest pain type.
-    - 'trtbps': Resting blood pressure in mm Hg.
-    - 'chol': Cholesterol level in mg/dL.
-    - 'exng': Exercise-induced angina.
-    - 'fbs': Fasting blood sugar level.
-    - 'restecg': Resting electrocardiographic results.
-    - 'thalachh': Maximum heart rate achieved.
-    - 'slp': Slope.
-    - 'caa': Number of major vessels.
-    - 'thall': Thallium stress test result.
-    - 'output': Target variable (0 for less chance of heart attack, 1 for more chance of heart attack).
-
+                               
+ 1   "age"  -  Age of the patient.                              
+ 2   "sex"  -  Gender of the patient.                         
+ 3   "chest" -  Chest pain type. (Points from 1 to 4)                            
+ 4   resting_blood_pressure  -  Resting blood pressure in mm Hg.           
+ 5   serum_cholestoral  -  Serum cholesterol level in mg/dL.           
+ 6   fasting_blood_sugar  -   Fasting blood sugar level > 120 mg/dl              
+ 7   resting_electrocardiographic_results  -   Resting electrocardiographic results (values 0,1,2).
+ 8   maximum_heart_rate_achieved  -  Maximum heart rate achieved      
+ 9   exercise_induced_angina  -   Exercise-induced angina.            
+ 10  oldpeak  -  ST depression induced by exercise relative to rest                
+ 11  slope -  The slope of the peak exercise ST segment                      
+ 12  number_of_major_vessels  -  Number of major vessels (0-3) colored by flourosopy      
+ 13  thal  -  3 = normal; 6 = fixed defect; 7 = reversable defect                      
+ 14  class  -  Absence (1) or presence (2) of heart disease             
 
 
 ### Reference
