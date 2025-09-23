@@ -20,4 +20,5 @@ This repository contains the implementation of a predictive model for heart dise
 The Random Forest algorithm provided the best performance among the tested models for this specific dataset, making it a suitable choice for building a reliable heart disease detection system.
 
 ### Reference
-Chang, V., Bhavani, V. R., Xu, A. Q., & Hossain, M. A. (2022). An artificial intelligence model for heart disease detection using machine learning algorithms. Healthcare Analytics, 2, 100016.
+https://www.kaggle.com/competitions/tech-weekend-data-science-hackathon/data
+Chang, V., Bhavani, V. R., Xu, A. Q., & Hossain, M. A. (2022). An artificial intelligence model for heart disease detection using machine learning algorithms. Healthcare Analytics, 2, 100016. 
