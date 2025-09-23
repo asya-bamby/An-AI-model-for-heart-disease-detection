@@ -13,15 +13,38 @@ This repository contains the implementation of a predictive model for heart dise
 - Technology Stack: Built with standard Python data science libraries including pandas, NumPy, scikit-learn, Matplotlib, and Seaborn.
 
 ## Workflow
-1) Data Collection & Import: Utilizes a dataset containing 14 key medical attributes (e.g., age, cholesterol level, chest pain type, maximum heart rate) from approximately 300 individuals.
-2) Exploratory Data Analysis (EDA): Performs data cleaning, visualization, and correlation analysis to understand feature relationships.
-3) Model Training & Validation: The dataset is split into training and test sets. The Random Forest model is trained and its performance is validated.
-4) Results Interpretation: The model's predictions are interpreted to identify the most significant factors contributing to heart disease risk.
+1. Data loading and exploration.
+2. Data preprocessing, including handling outliers, missing values, and duplicates.
+3. Exploratory data analysis (EDA) to gain insights into the dataset.
+4. Feature selection based on correlation.
+5. Train-test split of the dataset.
+6. Hyperparameter tuning for multiple machine learning models:
+    - Logistic Regression
+    - Decision Tree
+    - Support Vector Machine (SVM)
+7. Model training and evaluation.
+8. Display of confusion matrices and classification reports for model performance.
 
 ## Results
 The Random Forest algorithm provided the best performance among the tested models for this specific dataset, making it a suitable choice for building a reliable heart disease detection system.
 
 ## Data content:
+The following factors or parameters are considered from the CSV file:
+
+    - 'age': Age of the patient.
+    - 'sex': Gender of the patient.
+    - 'cp': Chest pain type.
+    - 'trtbps': Resting blood pressure in mm Hg.
+    - 'chol': Cholesterol level in mg/dL.
+    - 'exng': Exercise-induced angina.
+    - 'fbs': Fasting blood sugar level.
+    - 'restecg': Resting electrocardiographic results.
+    - 'thalachh': Maximum heart rate achieved.
+    - 'slp': Slope.
+    - 'caa': Number of major vessels.
+    - 'thall': Thallium stress test result.
+    - 'output': Target variable (0 for less chance of heart attack, 1 for more chance of heart attack).
+
 
 
 ### Reference
